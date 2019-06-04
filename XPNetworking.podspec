@@ -28,17 +28,12 @@ Pod::Spec.new do |s|
 
    s.author       = { "麻小亮" => "zshnr1993@qq.com" }
    s.platform     = :ios, "8.0"
-   s.ios.deployment_target = "8.0"
 
    s.source       = { :git => "https://github.com/HolyLe/XPNetworking.git", :tag =>          s.version.to_s } 
 
 
   s.source_files  = "XPNetworking/Network/**/*.{h,m}"
- 
 
-
-
- 
 
   s.framework  = "UIKit"
 
