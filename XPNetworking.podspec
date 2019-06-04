@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
  
 
   s.name         = "XPNetworking"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "面向对象的网络编程框架"
 
 
