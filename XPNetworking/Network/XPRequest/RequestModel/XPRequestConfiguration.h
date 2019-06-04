@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import "XPRequestDefines.h"
+NS_ASSUME_NONNULL_BEGIN
 @class AFSecurityPolicy;
 @interface XPRequestConfiguration : NSObject
 
@@ -56,3 +57,4 @@
  */
 @property (nonatomic, assign) NSTimeInterval  autoTrimInterval;
 @end
+NS_ASSUME_NONNULL_END

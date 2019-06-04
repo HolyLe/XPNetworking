@@ -9,8 +9,11 @@
 #include <zlib.h>
 #import "XPRequestTool.h"
 #import "XPBaseRequest.h"
+#if __has_include(<AFNetworking/AFNetworking.h>)
+#import <AFNetworking/AFNetworking.h>
+#else
 #import "AFNetworking.h"
-
+#endif
 static id objectToJsonObjectRecursive(NSObject *object){
     if (!object || object == (id)kCFNull) return nil;
     if ([object isKindOfClass:[NSDictionary class]]) {

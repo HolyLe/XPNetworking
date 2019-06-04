@@ -6,7 +6,11 @@
 //
 
 #import "XPRequestConfiguration.h"
+#if __has_include(<AFNetworking/AFSecurityPolicy.h>)
+#import <AFNetworking/AFSecurityPolicy.h>
+#else
 #import "AFSecurityPolicy.h"
+#endif
 @implementation XPRequestConfiguration
 - (instancetype)init
 {

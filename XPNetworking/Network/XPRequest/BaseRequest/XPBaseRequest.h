@@ -7,7 +7,11 @@
 
 #import <Foundation/Foundation.h>
 #import "XPRequestDefines.h"
+#if __has_include(<AFNetworking/AFNetworking.h>)
+#import <AFNetworking/AFNetworking.h>
+#else
 #import "AFNetworking.h"
+#endif
 
 NS_ASSUME_NONNULL_BEGIN
 /*

@@ -7,7 +7,11 @@
 
 #import "XPRequestCategory.h"
 #import <pthread/pthread.h>
+#if __has_include(<AFNetworking/AFNetworking.h>)
+#import <AFNetworking/AFNetworking.h>
+#else
 #import "AFNetworking.h"
+#endif
 #import <objc/runtime.h>
 #define Lock() pthread_mutex_lock(&_lock)
 #define Unlock() pthread_mutex_unlock(&_lock)

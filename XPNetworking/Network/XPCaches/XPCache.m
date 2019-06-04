@@ -6,7 +6,12 @@
 //
 
 #import "XPCache.h"
+
+#if __has_include(<YYCache/YYCache.h>)
 #import <YYCache/YYCache.h>
+#else
+#import "YYCache.h"
+#endif
 #import "XPCacheManager.h"
 
 static NSString * const XPCachePathName = @"com.MrXPorse.net";
