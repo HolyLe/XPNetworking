@@ -53,10 +53,6 @@ typedef void(^XPBaseRequestCompletionBlock)(XPBaseRequest *request);
 
 @interface XPBaseRequest : NSObject
 #pragma mark - 参数 -
-/**
- 请求host
- */
-@property (nonatomic, copy) NSString * baseUrl;
 
 /**
  代理
@@ -153,6 +149,11 @@ typedef void(^XPBaseRequestCompletionBlock)(XPBaseRequest *request);
 @property (nonatomic, assign) BOOL  allowsCellularAccess;
 
 /**
+ 请求host
+ */
+@property (nonatomic, copy) NSString * baseUrl;
+
+/**
  首路径
  拼接： baseUrl + route + path
  */
@@ -168,6 +169,10 @@ typedef void(^XPBaseRequestCompletionBlock)(XPBaseRequest *request);
  */
 @property (nonatomic, strong) NSMutableDictionary * params;
 
+/**
+ 请求方法
+ */
+@property (nonatomic, assign) XPRequestMethod  method;
 
 /**
  运行状态
@@ -193,10 +198,7 @@ typedef void(^XPBaseRequestCompletionBlock)(XPBaseRequest *request);
  是否是请求失败
  */
 @property (nonatomic, assign, readonly) BOOL  isFail;
-/**
- 请求方法
- */
-@property (nonatomic, assign) XPRequestMethod  method;
+
 
 /**
   本次请求的状态码
