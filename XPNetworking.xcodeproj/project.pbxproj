@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		739EABAA22A6178B0055D3A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 739EABA922A6178B0055D3A4 /* AppDelegate.m */; };
+		739EABAD22A6178B0055D3A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 739EABAC22A6178B0055D3A4 /* ViewController.m */; };
+		739EABB022A6178B0055D3A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 739EABAE22A6178B0055D3A4 /* Main.storyboard */; };
+		739EABB222A6178C0055D3A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 739EABB122A6178C0055D3A4 /* Assets.xcassets */; };
+		739EABB522A6178C0055D3A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 739EABB322A6178C0055D3A4 /* LaunchScreen.storyboard */; };
+		739EABB822A6178C0055D3A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 739EABB722A6178C0055D3A4 /* main.m */; };
+		739EABE022A6180B0055D3A4 /* XPRequestConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 739EABC322A6180B0055D3A4 /* XPRequestConfiguration.m */; };
+		739EABE122A6180B0055D3A4 /* XPRequestNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 739EABC522A6180B0055D3A4 /* XPRequestNetworkManager.m */; };
+		739EABE222A6180B0055D3A4 /* XPRequestUniquePackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 739EABC622A6180B0055D3A4 /* XPRequestUniquePackage.m */; };
+		739EABE322A6180B0055D3A4 /* XPBatchRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 739EABC822A6180B0055D3A4 /* XPBatchRequestManager.m */; };
+		739EABE422A6180B0055D3A4 /* XPRequestSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 739EABCB22A6180B0055D3A4 /* XPRequestSessionManager.m */; };
+		739EABE522A6180B0055D3A4 /* XPRequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 739EABCE22A6180B0055D3A4 /* XPRequestTool.m */; };
+		739EABE622A6180B0055D3A4 /* XPRequestCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 739EABD222A6180B0055D3A4 /* XPRequestCategory.m */; };
+		739EABE722A6180B0055D3A4 /* XPBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 739EABD522A6180B0055D3A4 /* XPBatchRequest.m */; };
+		739EABE822A6180B0055D3A4 /* XPBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 739EABD622A6180B0055D3A4 /* XPBaseRequest.m */; };
+		739EABE922A6180B0055D3A4 /* XPChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 739EABDA22A6180B0055D3A4 /* XPChainRequest.m */; };
+		739EABEA22A6180B0055D3A4 /* XPCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 739EABDC22A6180B0055D3A4 /* XPCacheManager.m */; };
+		739EABEB22A6180B0055D3A4 /* XPCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 739EABDF22A6180B0055D3A4 /* XPCache.m */; };
+		C8528401EB9E1DDA128D62CE /* libPods-XPNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40C5691DACF84EC429510154 /* libPods-XPNetworking.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40C5691DACF84EC429510154 /* libPods-XPNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XPNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		691DA8F6016163FEA84AF466 /* Pods-XPNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XPNetworking/Pods-XPNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+		739EABA522A6178B0055D3A4 /* XPNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		739EABA822A6178B0055D3A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		739EABA922A6178B0055D3A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		739EABAB22A6178B0055D3A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		739EABAC22A6178B0055D3A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		739EABAF22A6178B0055D3A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		739EABB122A6178C0055D3A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		739EABB422A6178C0055D3A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		739EABB622A6178C0055D3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		739EABB722A6178C0055D3A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		739EABC122A6180B0055D3A4 /* XPRequestConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPRequestConfiguration.h; sourceTree = "<group>"; };
+		739EABC222A6180B0055D3A4 /* XPRequestDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPRequestDefines.h; sourceTree = "<group>"; };
+		739EABC322A6180B0055D3A4 /* XPRequestConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPRequestConfiguration.m; sourceTree = "<group>"; };
+		739EABC522A6180B0055D3A4 /* XPRequestNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPRequestNetworkManager.m; sourceTree = "<group>"; };
+		739EABC622A6180B0055D3A4 /* XPRequestUniquePackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPRequestUniquePackage.m; sourceTree = "<group>"; };
+		739EABC722A6180B0055D3A4 /* XPRequestSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPRequestSessionManager.h; sourceTree = "<group>"; };
+		739EABC822A6180B0055D3A4 /* XPBatchRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPBatchRequestManager.m; sourceTree = "<group>"; };
+		739EABC922A6180B0055D3A4 /* XPRequestUniquePackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPRequestUniquePackage.h; sourceTree = "<group>"; };
+		739EABCA22A6180B0055D3A4 /* XPRequestNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPRequestNetworkManager.h; sourceTree = "<group>"; };
+		739EABCB22A6180B0055D3A4 /* XPRequestSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPRequestSessionManager.m; sourceTree = "<group>"; };
+		739EABCC22A6180B0055D3A4 /* XPBatchRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPBatchRequestManager.h; sourceTree = "<group>"; };
+		739EABCE22A6180B0055D3A4 /* XPRequestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPRequestTool.m; sourceTree = "<group>"; };
+		739EABCF22A6180B0055D3A4 /* XPRequestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPRequestTool.h; sourceTree = "<group>"; };
+		739EABD122A6180B0055D3A4 /* XPRequestCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPRequestCategory.h; sourceTree = "<group>"; };
+		739EABD222A6180B0055D3A4 /* XPRequestCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPRequestCategory.m; sourceTree = "<group>"; };
+		739EABD322A6180B0055D3A4 /* XPRequestNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPRequestNetWork.h; sourceTree = "<group>"; };
+		739EABD522A6180B0055D3A4 /* XPBatchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPBatchRequest.m; sourceTree = "<group>"; };
+		739EABD622A6180B0055D3A4 /* XPBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPBaseRequest.m; sourceTree = "<group>"; };
+		739EABD722A6180B0055D3A4 /* XPChainRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPChainRequest.h; sourceTree = "<group>"; };
+		739EABD822A6180B0055D3A4 /* XPBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPBaseRequest.h; sourceTree = "<group>"; };
+		739EABD922A6180B0055D3A4 /* XPBatchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPBatchRequest.h; sourceTree = "<group>"; };
+		739EABDA22A6180B0055D3A4 /* XPChainRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPChainRequest.m; sourceTree = "<group>"; };
+		739EABDC22A6180B0055D3A4 /* XPCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCacheManager.m; sourceTree = "<group>"; };
+		739EABDD22A6180B0055D3A4 /* XPCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCache.h; sourceTree = "<group>"; };
+		739EABDE22A6180B0055D3A4 /* XPCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCacheManager.h; sourceTree = "<group>"; };
+		739EABDF22A6180B0055D3A4 /* XPCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCache.m; sourceTree = "<group>"; };
+		898D749D4A75AB6913E3F780 /* Pods-XPNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-XPNetworking/Pods-XPNetworking.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		739EABA222A6178B0055D3A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8528401EB9E1DDA128D62CE /* libPods-XPNetworking.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		739EAB9C22A6178B0055D3A4 = {
+			isa = PBXGroup;
+			children = (
+				739EABA722A6178B0055D3A4 /* XPNetworking */,
+				739EABA622A6178B0055D3A4 /* Products */,
+				FC9F1AF06C6FCF196D43BA3F /* Pods */,
+				83931B12B6D1DDE3DD81E8A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		739EABA622A6178B0055D3A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				739EABA522A6178B0055D3A4 /* XPNetworking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		739EABA722A6178B0055D3A4 /* XPNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				739EABBE22A6180B0055D3A4 /* Network */,
+				739EABA822A6178B0055D3A4 /* AppDelegate.h */,
+				739EABA922A6178B0055D3A4 /* AppDelegate.m */,
+				739EABAB22A6178B0055D3A4 /* ViewController.h */,
+				739EABAC22A6178B0055D3A4 /* ViewController.m */,
+				739EABAE22A6178B0055D3A4 /* Main.storyboard */,
+				739EABB122A6178C0055D3A4 /* Assets.xcassets */,
+				739EABB322A6178C0055D3A4 /* LaunchScreen.storyboard */,
+				739EABB622A6178C0055D3A4 /* Info.plist */,
+				739EABB722A6178C0055D3A4 /* main.m */,
+			);
+			path = XPNetworking;
+			sourceTree = "<group>";
+		};
+		739EABBE22A6180B0055D3A4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				739EABBF22A6180B0055D3A4 /* XPRequest */,
+				739EABDB22A6180B0055D3A4 /* XPCaches */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		739EABBF22A6180B0055D3A4 /* XPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				739EABC022A6180B0055D3A4 /* RequestModel */,
+				739EABC422A6180B0055D3A4 /* RequestDispose */,
+				739EABCD22A6180B0055D3A4 /* RequestUntil */,
+				739EABD022A6180B0055D3A4 /* ReuqestCategory */,
+				739EABD322A6180B0055D3A4 /* XPRequestNetWork.h */,
+				739EABD422A6180B0055D3A4 /* BaseRequest */,
+			);
+			path = XPRequest;
+			sourceTree = "<group>";
+		};
+		739EABC022A6180B0055D3A4 /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+				739EABC222A6180B0055D3A4 /* XPRequestDefines.h */,
+				739EABC122A6180B0055D3A4 /* XPRequestConfiguration.h */,
+				739EABC322A6180B0055D3A4 /* XPRequestConfiguration.m */,
+			);
+			path = RequestModel;
+			sourceTree = "<group>";
+		};
+		739EABC422A6180B0055D3A4 /* RequestDispose */ = {
+			isa = PBXGroup;
+			children = (
+				739EABC922A6180B0055D3A4 /* XPRequestUniquePackage.h */,
+				739EABC622A6180B0055D3A4 /* XPRequestUniquePackage.m */,
+				739EABCC22A6180B0055D3A4 /* XPBatchRequestManager.h */,
+				739EABC822A6180B0055D3A4 /* XPBatchRequestManager.m */,
+				739EABCA22A6180B0055D3A4 /* XPRequestNetworkManager.h */,
+				739EABC522A6180B0055D3A4 /* XPRequestNetworkManager.m */,
+				739EABC722A6180B0055D3A4 /* XPRequestSessionManager.h */,
+				739EABCB22A6180B0055D3A4 /* XPRequestSessionManager.m */,
+			);
+			path = RequestDispose;
+			sourceTree = "<group>";
+		};
+		739EABCD22A6180B0055D3A4 /* RequestUntil */ = {
+			isa = PBXGroup;
+			children = (
+				739EABCF22A6180B0055D3A4 /* XPRequestTool.h */,
+				739EABCE22A6180B0055D3A4 /* XPRequestTool.m */,
+			);
+			path = RequestUntil;
+			sourceTree = "<group>";
+		};
+		739EABD022A6180B0055D3A4 /* ReuqestCategory */ = {
+			isa = PBXGroup;
+			children = (
+				739EABD122A6180B0055D3A4 /* XPRequestCategory.h */,
+				739EABD222A6180B0055D3A4 /* XPRequestCategory.m */,
+			);
+			path = ReuqestCategory;
+			sourceTree = "<group>";
+		};
+		739EABD422A6180B0055D3A4 /* BaseRequest */ = {
+			isa = PBXGroup;
+			children = (
+				739EABD922A6180B0055D3A4 /* XPBatchRequest.h */,
+				739EABD522A6180B0055D3A4 /* XPBatchRequest.m */,
+				739EABD722A6180B0055D3A4 /* XPChainRequest.h */,
+				739EABDA22A6180B0055D3A4 /* XPChainRequest.m */,
+				739EABD822A6180B0055D3A4 /* XPBaseRequest.h */,
+				739EABD622A6180B0055D3A4 /* XPBaseRequest.m */,
+			);
+			path = BaseRequest;
+			sourceTree = "<group>";
+		};
+		739EABDB22A6180B0055D3A4 /* XPCaches */ = {
+			isa = PBXGroup;
+			children = (
+				739EABDD22A6180B0055D3A4 /* XPCache.h */,
+				739EABDF22A6180B0055D3A4 /* XPCache.m */,
+				739EABDE22A6180B0055D3A4 /* XPCacheManager.h */,
+				739EABDC22A6180B0055D3A4 /* XPCacheManager.m */,
+			);
+			path = XPCaches;
+			sourceTree = "<group>";
+		};
+		83931B12B6D1DDE3DD81E8A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40C5691DACF84EC429510154 /* libPods-XPNetworking.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC9F1AF06C6FCF196D43BA3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				691DA8F6016163FEA84AF466 /* Pods-XPNetworking.debug.xcconfig */,
+				898D749D4A75AB6913E3F780 /* Pods-XPNetworking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		739EABA422A6178B0055D3A4 /* XPNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 739EABBB22A6178C0055D3A4 /* Build configuration list for PBXNativeTarget "XPNetworking" */;
+			buildPhases = (
+				C99A45293BAE8D3C4E3AFA4B /* [CP] Check Pods Manifest.lock */,
+				739EABA122A6178B0055D3A4 /* Sources */,
+				739EABA222A6178B0055D3A4 /* Frameworks */,
+				739EABA322A6178B0055D3A4 /* Resources */,
+				9D351BA02C2772D7DC241462 /* [CP] Embed Pods Frameworks */,
+				32136410BAA6B3CAB5B0507D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XPNetworking;
+			productName = XPNetworking;
+			productReference = 739EABA522A6178B0055D3A4 /* XPNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		739EAB9D22A6178B0055D3A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "麻小亮";
+				TargetAttributes = {
+					739EABA422A6178B0055D3A4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 739EABA022A6178B0055D3A4 /* Build configuration list for PBXProject "XPNetworking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 739EAB9C22A6178B0055D3A4;
+			productRefGroup = 739EABA622A6178B0055D3A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				739EABA422A6178B0055D3A4 /* XPNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		739EABA322A6178B0055D3A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739EABB522A6178C0055D3A4 /* LaunchScreen.storyboard in Resources */,
+				739EABB222A6178C0055D3A4 /* Assets.xcassets in Resources */,
+				739EABB022A6178B0055D3A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32136410BAA6B3CAB5B0507D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XPNetworking/Pods-XPNetworking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D351BA02C2772D7DC241462 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XPNetworking/Pods-XPNetworking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C99A45293BAE8D3C4E3AFA4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XPNetworking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		739EABA122A6178B0055D3A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739EABEA22A6180B0055D3A4 /* XPCacheManager.m in Sources */,
+				739EABE022A6180B0055D3A4 /* XPRequestConfiguration.m in Sources */,
+				739EABE222A6180B0055D3A4 /* XPRequestUniquePackage.m in Sources */,
+				739EABE922A6180B0055D3A4 /* XPChainRequest.m in Sources */,
+				739EABAD22A6178B0055D3A4 /* ViewController.m in Sources */,
+				739EABE722A6180B0055D3A4 /* XPBatchRequest.m in Sources */,
+				739EABB822A6178C0055D3A4 /* main.m in Sources */,
+				739EABEB22A6180B0055D3A4 /* XPCache.m in Sources */,
+				739EABE422A6180B0055D3A4 /* XPRequestSessionManager.m in Sources */,
+				739EABE822A6180B0055D3A4 /* XPBaseRequest.m in Sources */,
+				739EABE622A6180B0055D3A4 /* XPRequestCategory.m in Sources */,
+				739EABE322A6180B0055D3A4 /* XPBatchRequestManager.m in Sources */,
+				739EABE522A6180B0055D3A4 /* XPRequestTool.m in Sources */,
+				739EABE122A6180B0055D3A4 /* XPRequestNetworkManager.m in Sources */,
+				739EABAA22A6178B0055D3A4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		739EABAE22A6178B0055D3A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				739EABAF22A6178B0055D3A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		739EABB322A6178C0055D3A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				739EABB422A6178C0055D3A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		739EABB922A6178C0055D3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		739EABBA22A6178C0055D3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		739EABBC22A6178C0055D3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 691DA8F6016163FEA84AF466 /* Pods-XPNetworking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XPNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.holyle.www.XPNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		739EABBD22A6178C0055D3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 898D749D4A75AB6913E3F780 /* Pods-XPNetworking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XPNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.holyle.www.XPNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		739EABA022A6178B0055D3A4 /* Build configuration list for PBXProject "XPNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739EABB922A6178C0055D3A4 /* Debug */,
+				739EABBA22A6178C0055D3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		739EABBB22A6178C0055D3A4 /* Build configuration list for PBXNativeTarget "XPNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739EABBC22A6178C0055D3A4 /* Debug */,
+				739EABBD22A6178C0055D3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 739EAB9D22A6178B0055D3A4 /* Project object */;
+}
