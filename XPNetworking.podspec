@@ -26,13 +26,13 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
-   s.author             = { "麻小亮" => "zshnr1993@qq.com" }
+   s.author       = { "麻小亮" => "zshnr1993@qq.com" }
    s.platform     = :ios
 
    s.source       = { :git => "https://github.com/HolyLe/XPNetworking.git", :tag =>          s.version.to_s } 
 
 
-  s.source_files  = "Network/**/*.{h,m}"
+  s.source_files  = "XPNetworking/Network/**/*.{h,m}"
  
 
 
