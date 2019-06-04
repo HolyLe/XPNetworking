@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
    s.source       = { :git => "https://github.com/HolyLe/XPNetworking.git", :tag =>          s.version.to_s } 
 
 
-  s.source_files  = "Network/Tool/*.{h,m}"
+  s.source_files  = "Network/*.{h,m}"
  
 
 
