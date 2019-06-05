@@ -11,4 +11,5 @@
 #import "XPBaseRequest.h"
 #import "XPBatchRequest.h"
 #import "XPChainRequest.h"
+#import "XPRequestConfiguration.h"
 #endif /* XPNetworking_h */
