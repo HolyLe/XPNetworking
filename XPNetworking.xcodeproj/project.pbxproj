@@ -31,6 +31,7 @@
 /* Begin PBXFileReference section */
 		40C5691DACF84EC429510154 /* libPods-XPNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XPNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		691DA8F6016163FEA84AF466 /* Pods-XPNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XPNetworking/Pods-XPNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+		733A5CC322A789E1008ABE8B /* XPNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPNetworking.h; sourceTree = "<group>"; };
 		739EABA522A6178B0055D3A4 /* XPNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		739EABA822A6178B0055D3A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		739EABA922A6178B0055D3A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,7 +57,6 @@
 		739EABCF22A6180B0055D3A4 /* XPRequestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPRequestTool.h; sourceTree = "<group>"; };
 		739EABD122A6180B0055D3A4 /* XPRequestCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPRequestCategory.h; sourceTree = "<group>"; };
 		739EABD222A6180B0055D3A4 /* XPRequestCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPRequestCategory.m; sourceTree = "<group>"; };
-		739EABD322A6180B0055D3A4 /* XPRequestNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPRequestNetWork.h; sourceTree = "<group>"; };
 		739EABD522A6180B0055D3A4 /* XPBatchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPBatchRequest.m; sourceTree = "<group>"; };
 		739EABD622A6180B0055D3A4 /* XPBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPBaseRequest.m; sourceTree = "<group>"; };
 		739EABD722A6180B0055D3A4 /* XPChainRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPChainRequest.h; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 		739EABBE22A6180B0055D3A4 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				739EABD322A6180B0055D3A4 /* XPRequestNetWork.h */,
+				733A5CC322A789E1008ABE8B /* XPNetworking.h */,
 				739EABBF22A6180B0055D3A4 /* XPRequest */,
 				739EABDB22A6180B0055D3A4 /* XPCaches */,
 			);
