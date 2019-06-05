@@ -7,8 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "XPBaseRequest.h"
-#import "XPBatchRequest.h"
+#import "XPNetworking.h"
 @interface ViewController ()
 
 @end
