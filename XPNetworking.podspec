@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
  
 
   s.name         = "XPNetworking"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "面向对象的网络编程框架"
 
 
@@ -28,12 +28,12 @@ Pod::Spec.new do |s|
 
    s.author       = { "麻小亮" => "zshnr1993@qq.com" }
    s.platform     = :ios, "8.0"
-
+   s.ios.deployment_target = '8.0'
    s.source       = { :git => "https://github.com/HolyLe/XPNetworking.git", :tag =>          s.version.to_s } 
 
-
+  s.public_header_files = 'XPNetworking/Network/XPRequestNetWork.h'
   s.source_files  = "XPNetworking/Network/**/*.{h,m}"
-
+  
 
   s.framework  = "UIKit"
 
