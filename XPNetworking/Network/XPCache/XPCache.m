@@ -12,7 +12,6 @@
 #else
 #import "YYCache.h"
 #endif
-#import "XPCacheManager.h"
 
 static NSString * const XPCachePathName = @"com.MrXPorse.net";
 static NSString * const XPCacheManagerName = @"com.MrXPorse.cacheManager";

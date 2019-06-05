@@ -27,11 +27,12 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.subspec 'XPRequest' do |ss|
      ss.source_files = 'XPNetworking/Network/XPRequest/**/*.{h,m}'
+     s.public_header_files = 'XPNetworking/Network/XPRequest/**/*.h'
      ss.dependency "AFNetworking"
      ss.dependency "XPNetworking/XPCache"
   end
   s.subspec 'XPCache' do |ss|
-     ss.public_header_files = 'XPNetworking/Network/XPCache/XPCache.h'
+     ss.public_header_files = 'XPNetworking/Network/XPCache/*.h'
      ss.source_files = 'XPNetworking/Network/XPCache/*.{h,m}'
      ss.dependency "YYCache"
   end
