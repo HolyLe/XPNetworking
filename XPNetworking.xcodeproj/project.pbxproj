@@ -122,7 +122,7 @@
 			children = (
 				733A5CC322A789E1008ABE8B /* XPNetworking.h */,
 				739EABBF22A6180B0055D3A4 /* XPRequest */,
-				739EABDB22A6180B0055D3A4 /* XPCaches */,
+				739EABDB22A6180B0055D3A4 /* XPCache */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -195,7 +195,7 @@
 			path = BaseRequest;
 			sourceTree = "<group>";
 		};
-		739EABDB22A6180B0055D3A4 /* XPCaches */ = {
+		739EABDB22A6180B0055D3A4 /* XPCache */ = {
 			isa = PBXGroup;
 			children = (
 				739EABDD22A6180B0055D3A4 /* XPCache.h */,
@@ -203,7 +203,7 @@
 				739EABDE22A6180B0055D3A4 /* XPCacheManager.h */,
 				739EABDC22A6180B0055D3A4 /* XPCacheManager.m */,
 			);
-			path = XPCaches;
+			path = XPCache;
 			sourceTree = "<group>";
 		};
 		83931B12B6D1DDE3DD81E8A9 /* Frameworks */ = {

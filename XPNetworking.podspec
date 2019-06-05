@@ -13,16 +13,7 @@ Pod::Spec.new do |s|
   s.name         = "XPNetworking"
   s.version      = "0.0.3"
   s.summary      = "面向对象的网络编程框架"
-
-
-
-
   s.homepage     = "https://github.com/HolyLe/XPNetworking.git"
-
-
-
-
-
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
@@ -32,13 +23,21 @@ Pod::Spec.new do |s|
    s.source       = { :git => "https://github.com/HolyLe/XPNetworking.git", :tag =>          s.version.to_s } 
 
   s.public_header_files = 'XPNetworking/Network/XPNetworking.h'
-  s.source_files  = "XPNetworking/Network/**/*.{h,m}"
+  s.source_files  = "XPNetworking/Network/XPNetworking.h"
+  s.requires_arc = true
+  s.subspec 'XPRequest' do |ss|
+     ss.source_files = 'XPNetworking/Network/XPRequest/**/*.{h,m}'
+     ss.dependency "AFNetworking"
+     ss.dependency "XPNetworking/XPCache"
+  end
+  s.subspec 'XPCache' do |ss|
+     ss.public_header_files = 'XPNetworking/Network/XPCache/XPCache.h'
+     ss.source_files = 'XPNetworking/Network/XPCache/*.{h,m}'
+     ss.dependency "YYCache"
+  end
+
   
 
-  s.framework  = "UIKit"
-
-  s.requires_arc = true
-  s.dependency "AFNetworking", "~> 3.0"
-  s.dependency "YYCache"
+  
 
 end
