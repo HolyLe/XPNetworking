@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
    s.ios.deployment_target = '8.0'
    s.source       = { :git => "https://github.com/HolyLe/XPNetworking.git", :tag =>          s.version.to_s } 
 
-  s.public_header_files = 'XPNetworking/Network/XPRequestNetWork.h'
+  s.public_header_files = 'XPNetworking/Network/XPNetworking.h'
   s.source_files  = "XPNetworking/Network/**/*.{h,m}"
   
 
