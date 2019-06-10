@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
  
 
   s.name         = "XPNetworking"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "面向对象的网络编程框架"
   s.homepage     = "https://github.com/HolyLe/XPNetworking.git"
   s.license      = "MIT"

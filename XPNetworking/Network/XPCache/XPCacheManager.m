@@ -333,7 +333,7 @@
 - (void)checkDiskTimeOut{
     Lock();
     NSDictionary *dic = self.diskData.copy;
-    NSArray *allKeys = dic.copy;
+    NSArray *allKeys = dic.allKeys.copy;
     Unlock();
     NSTimeInterval currentTime = time(NULL);
     for (NSString *key in allKeys) {
@@ -359,7 +359,7 @@
 - (void)checkMemoryTimeOut{
     Lock();
     NSDictionary *dic = self.memoryData.copy;
-    NSArray *allKeys = dic.copy;
+    NSArray *allKeys = dic.allKeys.copy;
     Unlock();
     NSTimeInterval currentTime = time(NULL);
     for (NSString *key in allKeys) {
